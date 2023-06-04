@@ -1,0 +1,112 @@
+body {
+    font-family: Gabriola;
+    font-size: 20px;
+}
+
+.heading {
+    width: 46%;
+    margin: 30px auto;
+    text-align: center;
+    color: rgb(22, 21, 59);
+    background: #947B98;
+    border: 2px solid rgb(22, 21, 59);
+    border-radius: 20px;
+}
+
+form {
+    width: 50%;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 10px;
+    background: #947B98;
+    border: 1px solid rgb(22, 21, 59);
+}
+
+.recommendation_input {
+    width: 97%;
+    height: 15px;
+    padding: 10px;
+    border: 2px solid rgb(22, 21, 59);
+}
+
+.recommendation_btn {
+    height: 39px;
+    background: rgb(22, 21, 59);
+    color: #ffffff;
+    border: 2px solid rgb(22, 21, 59);
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.recommendation_btn2 {
+    height: 39px;
+    background: rgb(22, 21, 59);
+    color: #ffffff;
+    border: 2px solid rgb(22, 21, 59);
+    border-radius: 5px;
+    padding: 5px 20px;
+    position: relative;
+	top: 60%;
+	left: 69%;
+}
+
+.recommendation_btn3 {
+    height: 39px;
+    background: rgb(22, 21, 59);
+    color: #ffffff;
+    border: 2px solid  rgb(22, 21, 59);
+    border-radius: 5px;
+    padding: 5px 20px;
+    position: relative;
+	border-top: 80%;
+	left: 38%;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid  rgb(22, 21, 59);
+}
+
+th {
+    font-size: 19px;
+    color: rgb(22, 21, 59);
+}
+
+th, td {
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+    background: #947B98;
+}
+
+.recommendation {
+    text-align: left;  
+}
+
+.delete {
+    text-align: center;
+}
+
+.delete a {
+    color: white;
+    background: #a92727;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.edit a {
+    color: white;
+    background: #277d6c;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+}
